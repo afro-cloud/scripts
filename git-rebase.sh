@@ -6,6 +6,6 @@ git stash
 git checkout master
 git pull origin master
 
-git stash pop
 git checkout $CURRENT_BRANCH
 git rebase -i master
+git stash pop
