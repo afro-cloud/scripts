@@ -9,10 +9,10 @@ alias gc="git checkout -- ."
 alias log="git log --oneline"
 alias gch="git checkout"
 alias gs="git status"
-alias getlatest="sh ~/code/scripts/git-latest.sh"
-alias rebase="sh ~/code/scripts/git-rebase.sh"
-alias push="sh ~/code/scripts/git-push.sh"
-alias nb="sh ~/code/scripts/new_branch.sh"
+alias getlatest="gch master; git pull; git fetch --all;"
+alias rebase="sh ~/code/scripts/git/git-rebase.sh"
+alias push="sh ~/code/scripts/git/git-push.sh"
+alias nb="sh ~/code/scripts/git/new_branch.sh"
 
 # Git branch in prompt.
 parse_git_branch() {

@@ -1,8 +1,16 @@
 # scripts
-Useful bash scripts
+Useful bash scripts.
 
-### Homebrew Setup
-`curl https://raw.githubusercontent.com/thesuperhomie/scripts/master/homebrew.sh | sh`
+## initialize.sh
+Includes all required packages and workflow shortcuts needed for my typical development environment.
 
-### Bash Setup
-`curl https://raw.githubusercontent.com/thesuperhomie/scripts/master/.bash_profile > ~/.bash_profile`
+`curl https://raw.githubusercontent.com/thesuperhomie/scripts/master/initialize.sh > sh`
+
+## git
+Includes git related scripts.
+
+## bash
+Includes bash related scripts.
+
+## npm
+Includes npm related scripts.
