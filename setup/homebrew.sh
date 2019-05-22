@@ -1,10 +1,7 @@
 #!/bin/bash
 
-if [ $(which brew | grep "not found") ];
-  then 
-    echo "Installing homebrew..."
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
+echo "Installing homebrew..."
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo "Updating homebrew..."
 brew update
@@ -23,7 +20,6 @@ git
 wget
 ack
 awscli
-wget
 "
 
 CASK_LIST="spectacle
