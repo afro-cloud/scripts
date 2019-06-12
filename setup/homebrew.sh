@@ -14,6 +14,7 @@ TAP_LIST="caskroom/cask
 
 BREW_LIST="brew-cask
 node
+nvm
 yarn
 bash
 git
